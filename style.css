@@ -1,0 +1,86 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+#name 
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+#container 
+{
+    border: 5px solid #000000;
+    margin: 0 auto;
+    width: 50vw;
+    height: 60vh;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#timer_stopwatch
+{
+    border: 5px solid #ffffff;
+    padding: 30px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #ff7485;
+    color: white;
+}
+#inner_down 
+{
+    border: 6px solid #ffffff;
+    padding: 45px;
+    background-color: #91ede6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#laps 
+{
+    list-style-type: none;
+    color: #ffd5d5;
+    font-size: 1.5rem;
+}
+#buttons 
+{
+    margin-left: 20px;
+}
+.bts 
+{
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.bts:hover 
+{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+.bts:active 
+{
+    background-color: #7acad7;
+    transform: scale(0.95);
+}
